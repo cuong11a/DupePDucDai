@@ -39,7 +39,7 @@ glow.Transparency = 0.1
 -- Title
 local title = Instance.new("TextLabel", mainFrame)
 title.Size = UDim2.new(1, 0, 0, 40)
-title.Text = "1Eyed Hub"
+title.Text = "Dupe "
 title.TextColor3 = Color3.fromRGB(200, 100, 255)
 title.BackgroundTransparency = 1
 title.Font = Enum.Font.GothamBold
@@ -49,7 +49,7 @@ title.TextSize = 24
 local inspired = Instance.new("TextLabel", mainFrame)
 inspired.Size = UDim2.new(1, -20, 0, 20)
 inspired.Position = UDim2.new(0, 10, 1, -25)
-inspired.Text = "Created by Yoshidaa"
+inspired.Text = "5ive.S-H-A-R-K"
 inspired.TextColor3 = Color3.fromRGB(140, 140, 140)
 inspired.BackgroundTransparency = 1
 inspired.Font = Enum.Font.Gotham
@@ -60,7 +60,7 @@ inspired.TextXAlignment = Enum.TextXAlignment.Left
 local button = Instance.new("TextButton", mainFrame)
 button.Size = UDim2.new(0.85, 0, 0, 44)
 button.Position = UDim2.new(0.075, 0, 0.55, 0)
-button.Text = " Activate"
+button.Text = " Kích Hoạt"
 button.BackgroundColor3 = Color3.fromRGB(40, 0, 60)
 button.TextColor3 = Color3.new(1, 1, 1)
 button.Font = Enum.Font.Gotham
@@ -93,7 +93,7 @@ button.MouseButton1Click:Connect(function()
 	button.BackgroundColor3 = Color3.fromRGB(60, 0, 100)
 
 	-- Load PetsDuped script
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/cuong11a/DaiDaoDupr/refs/heads/main/DaiDaoGaG"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/cuong11a/carrot_dupe/refs/heads/main/DupeGAG"))()
 
 	-- Black Loading Overlay
 	task.delay(0.01, function()
